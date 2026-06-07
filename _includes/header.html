@@ -1,0 +1,18 @@
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}" aria-label="Sapphire Solutions K.K. home">
+    <span class="brand-mark">S</span>
+    <span>
+      <strong>Sapphire Solutions K.K.</strong>
+      <small data-i18n-en="AI Change Management Advisory" data-i18n-ja="AI変革マネジメント・アドバイザリー">AI Change Management Advisory</small>
+    </span>
+  </a>
+  <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="site-nav" aria-label="Primary navigation">
+    {% for item in site.data.navigation %}
+      <a href="{{ item.url | relative_url }}" data-i18n-en="{{ item.en }}" data-i18n-ja="{{ item.ja }}">{{ item.en }}</a>
+    {% endfor %}
+    <button class="lang-switch" type="button" data-lang-toggle aria-label="Switch language">日本語</button>
+  </nav>
+</header>

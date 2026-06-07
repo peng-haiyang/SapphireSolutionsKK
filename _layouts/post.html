@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="page-hero compact">
+    <p class="eyebrow" data-i18n-en="{{ page.category | default: 'Insight' }}" data-i18n-ja="{{ page.category_ja | default: 'インサイト' }}">{{ page.category | default: 'Insight' }}</p>
+    <h1 data-i18n-en="{{ page.title }}" data-i18n-ja="{{ page.title_ja | default: page.title }}">{{ page.title }}</h1>
+    <p class="lead">{{ page.date | date: "%B %-d, %Y" }} · {{ page.author | default: site.company.founder }}</p>
+  </header>
+  <div class="post-body">
+    {{ content }}
+  </div>
+</article>

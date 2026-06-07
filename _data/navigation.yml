@@ -1,0 +1,24 @@
+- key: home
+  url: /
+  en: Home
+  ja: ホーム
+- key: about
+  url: /about/
+  en: About
+  ja: 代表者について
+- key: services
+  url: /services/
+  en: Services
+  ja: サービス
+- key: insights
+  url: /insights/
+  en: Insights
+  ja: インサイト
+- key: speaking
+  url: /speaking/
+  en: Speaking & Training
+  ja: 講演・研修
+- key: contact
+  url: /contact/
+  en: Contact
+  ja: お問い合わせ

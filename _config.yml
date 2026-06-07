@@ -1,0 +1,31 @@
+title: Sapphire Solutions K.K.
+description: AI change management advisory, executive education, and responsible AI governance based in Tokyo, Japan.
+url: ""
+baseurl: ""
+lang: en
+timezone: Asia/Tokyo
+permalink: /insights/:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+company:
+  name: Sapphire Solutions K.K.
+  founder: Dr. Haiyang Peng
+  email: peng0041@gmail.com
+  linkedin: https://www.linkedin.com/in/haiyang-peng/
+  location: Tokyo, Japan
+  form_endpoint: ""
+  google_analytics_id: ""
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/img/og-image.svg

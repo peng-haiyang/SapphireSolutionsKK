@@ -1,0 +1,23 @@
+{
+  "company": "Sapphire Solutions K.K.",
+  "location": "Tokyo, Japan",
+  "languages": ["en", "ja"],
+  "primary_topics": [
+    "Responsible AI",
+    "AI strategy and governance",
+    "Change management",
+    "Executive education",
+    "Healthcare innovation",
+    "Data and analytics advisory"
+  ],
+  "contact": {
+    "email": "peng0041@gmail.com",
+    "consultation_url": "/contact/"
+  },
+  "site_capabilities": {
+    "newsletter": true,
+    "contact_form": true,
+    "blog": true,
+    "future_ai_agent_ready": true
+  }
+}
