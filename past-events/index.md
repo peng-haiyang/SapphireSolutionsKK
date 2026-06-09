@@ -4,53 +4,14 @@ description: Past events, public references, media coverage, videos, and applied
 ---
 
 <style>
-  .event-list {
-    display: grid;
-    gap: 18px;
-    max-width: 1100px;
-  }
-
-  .event-item {
-    display: grid;
-    grid-template-columns: 96px minmax(0, 1fr);
-    gap: 24px;
-    padding: 26px;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    background: var(--white);
-  }
-
-  .event-year {
-    color: var(--blue);
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 1;
-  }
-
-  .event-content {
-    display: grid;
-    gap: 10px;
-  }
-
-  .event-content h2 {
-    font-size: clamp(22px, 3vw, 32px);
-  }
-
-  .event-content p {
-    margin: 0;
-    color: #465a69;
-  }
-
-  .event-link {
-    width: fit-content;
-    font-weight: 800;
-  }
-
-  @media (max-width: 900px) {
-    .event-item {
-      grid-template-columns: 1fr;
-    }
-  }
+  .event-list { display: grid; gap: 18px; max-width: 1100px; }
+  .event-item { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 24px; padding: 26px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); }
+  .event-year { color: var(--blue); font-size: 24px; font-weight: 800; line-height: 1; }
+  .event-content { display: grid; gap: 10px; }
+  .event-content h2 { font-size: clamp(22px, 3vw, 32px); }
+  .event-content p { margin: 0; color: #465a69; }
+  .event-link { width: fit-content; font-weight: 800; }
+  @media (max-width: 900px) { .event-item { grid-template-columns: 1fr; } }
 </style>
 
 <section class="page-hero">
@@ -85,8 +46,8 @@ description: Past events, public references, media coverage, videos, and applied
       <div class="event-year">2022</div>
       <div class="event-content">
         <p class="meta" data-i18n-en="Healthcare Commercial AI · Omnichannel · Field Planning" data-i18n-ja="ヘルスケア営業AI・オムニチャネル・訪問計画">Healthcare Commercial AI · Omnichannel · Field Planning</p>
-        <h2><a href="https://www.mixonline.jp/tabid55.html?artid=73402">GSK Japan: AI-supported MR Visit Planning</a></h2>
-        <p data-i18n-en="MixOnline reported on GSK Japan's AI-enabled approach to medical representative visit planning, using structured data such as healthcare professional specialties, information needs, preferred channels, past touchpoints, and prescription records to support more data-driven engagement." data-i18n-ja="ミクスOnlineの記事。GSK日本法人が、医療従事者の専門領域、情報ニーズ、情報収集チャネル、過去接点、処方実績などの構造化データを活用し、MR訪問計画をAIで支援するデータドリブンな取り組みを紹介しています。">MixOnline reported on GSK Japan's AI-enabled approach to medical representative visit planning, using structured data such as healthcare professional specialties, information needs, preferred channels, past touchpoints, and prescription records to support more data-driven engagement.</p>
+        <h2><a href="https://www.mixonline.jp/tabid55.html?artid=73402">AI-supported MR Visit Planning</a></h2>
+        <p data-i18n-en="MixOnline reported on an AI-enabled approach to medical representative visit planning, using structured data such as healthcare professional specialties, information needs, preferred channels, past touchpoints, and prescription records to support more data-driven engagement." data-i18n-ja="ミクスOnlineの記事。医療従事者の専門領域、情報ニーズ、情報収集チャネル、過去接点、処方実績などの構造化データを活用し、MR訪問計画をAIで支援するデータドリブンな取り組みを紹介しています。">MixOnline reported on an AI-enabled approach to medical representative visit planning, using structured data such as healthcare professional specialties, information needs, preferred channels, past touchpoints, and prescription records to support more data-driven engagement.</p>
         <a class="event-link" href="https://www.mixonline.jp/tabid55.html?artid=73402" data-i18n-en="View source" data-i18n-ja="リンクを見る">View source</a>
       </div>
     </article>
@@ -146,7 +107,7 @@ description: Past events, public references, media coverage, videos, and applied
       <div class="event-content">
         <p class="meta" data-i18n-en="Manufacturing AI · Field Innovation · Big Data" data-i18n-ja="製造AI・フィールドイノベーション・ビッグデータ">Manufacturing AI · Field Innovation · Big Data</p>
         <h2><a href="https://www.global.toshiba/ww/technology/corporate/rdc/rd/topics/17/1706-04.html">Toshiba and Toshiba Memory Receive JSAI Field Innovation Award</a></h2>
-        <p data-i18n-en="Toshiba announced that Toshiba and Toshiba Memory received the Japanese Society for Artificial Intelligence's 2016 Field Innovation Award for improving semiconductor manufacturing productivity through AI-based analysis of big data from manufacturing and inspection equipment." data-i18n-ja="東芝の発表。ToshibaおよびToshiba Memoryが、製造・検査装置から得られるビッグデータをAIで分析し、半導体製造の生産性向上に貢献したとして、人工知能学会2016年度フィールドイノベーション賞を受賞した内容です。">Toshiba announced that Toshiba and Toshiba Memory received the Japanese Society for Artificial Intelligence's 2016 Field Innovation Award for improving semiconductor manufacturing productivity through AI-based analysis of big data from manufacturing and inspection equipment.</p>
+        <p data-i18n-en="Toshiba announced that Toshiba and Toshiba Memory received the Japanese Society for Artificial Intelligence's 2012016 Field Innovation Award for improving semiconductor manufacturing productivity through AI-based analysis of big data from manufacturing and inspection equipment." data-i18n-ja="東芝の発表。ToshibaおよびToshiba Memoryが、製造・検査装置から得られるビッグデータをAIで分析し、半導体製造の生産性向上に貢献したとして、人工知能学会2016年度フィールドイノベーション賞を受賞した内容です。">Toshiba announced that Toshiba and Toshiba Memory received the Japanese Society for Artificial Intelligence's 2016 Field Innovation Award for improving semiconductor manufacturing productivity through AI-based analysis of big data from manufacturing and inspection equipment.</p>
         <a class="event-link" href="https://www.global.toshiba/ww/technology/corporate/rdc/rd/topics/17/1706-04.html" data-i18n-en="View source" data-i18n-ja="リンクを見る">View source</a>
       </div>
     </article>
